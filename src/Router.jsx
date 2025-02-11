@@ -10,25 +10,25 @@ function Router() {
   return (
     <BrowserRouter basename="https://poiuy4004.github.io/kjobslink/">
       <Routes>
-        <Route path="/" Component={Home} />
-        <Route path="/greeting" Component={Greeting} />
-        <Route path="/ideology" Component={Ideology} />
-        <Route path="/history" Component={History} />
-        <Route path="/organizationChart" Component={OrganizationChart} />
-        <Route path="/cooperation" Component={Cooperation} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
-        <Route path="/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/greeting" Component={Greeting} />
+        <Route path="https://poiuy4004.github.io/kjobslink/ideology" Component={Ideology} />
+        <Route path="https://poiuy4004.github.io/kjobslink/history" Component={History} />
+        <Route path="https://poiuy4004.github.io/kjobslink/organizationChart" Component={OrganizationChart} />
+        <Route path="https://poiuy4004.github.io/kjobslink/cooperation" Component={Cooperation} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
+        <Route path="https://poiuy4004.github.io/kjobslink/" Component={Home} />
       </Routes>
     </BrowserRouter>
   );
