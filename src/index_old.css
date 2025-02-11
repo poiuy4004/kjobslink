@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+header{
+  display: flex;
+  padding: 24px;
+  justify-Content: space-between;
+  background-color: #A47864;
+  color: white;
+  overflow: hidden;
+  transition: .3s;
+  &>nav>ul>div>div>div{
+    padding: 3px;
+  }
+}
+.hideNav{
+  height: 72px;
+}
+.rendingNav{
+  height: 300px;
+}
+.hideWaiting{
+  height: 150px;
+  overflow: hidden;
+  transition: .8s;
+}
+.renderWaiting{
+  height: 300px;
+  overflow: hidden;
+  transition: .8s;
+}
