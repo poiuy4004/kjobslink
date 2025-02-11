@@ -8,7 +8,7 @@ import Cooperation from "./pages/intro/Cooperation";
 
 function Router() {
   return (
-    <BrowserRouter basename="https://poiuy4004.github.io/kjobslink">
+    <BrowserRouter basename="https://poiuy4004.github.io/kjobslink/">
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/greeting" Component={Greeting} />
