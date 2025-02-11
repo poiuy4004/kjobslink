@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kjobslink/static/css/main.71ead8f0.css",
-    "main.js": "/kjobslink/static/js/main.ffad068c.js",
+    "main.js": "/kjobslink/static/js/main.300e5698.js",
     "index.html": "/kjobslink/index.html",
     "main.71ead8f0.css.map": "/kjobslink/static/css/main.71ead8f0.css.map",
-    "main.ffad068c.js.map": "/kjobslink/static/js/main.ffad068c.js.map"
+    "main.300e5698.js.map": "/kjobslink/static/js/main.300e5698.js.map"
   },
   "entrypoints": [
     "static/css/main.71ead8f0.css",
-    "static/js/main.ffad068c.js"
+    "static/js/main.300e5698.js"
   ]
 }
