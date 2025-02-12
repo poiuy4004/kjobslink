@@ -5,14 +5,13 @@ import Header from "../../layouts/Header";
 export default function Resume(){
   const [resumeImg, setResumeImg] = useState("https://image.idus.com/image/files/f7ad6efa2937405a93eadc1ef0a7e325_400.jpg")
   function uploadImg(e){
-    console.log(e.target.files[0])
     let resumeImgURL = URL.createObjectURL(e.target.files[0])
     setResumeImg(resumeImgURL)
   }
   return(
     <>
     <Header />
-    <main style={{backgroundColor: "rgba(0,0,0,.1)"}}>
+    <main style={{backgroundColor: "rgba(128,128,128,.1)"}}>
       <article style={{width: "72%"}}>
       <h1>이력서 등록</h1>
       <desc>잘못된 정보는 업무에 제약이 있을 수 있으니, 정확한 이력서 정보를 입력해 주세요.</desc>
@@ -73,7 +72,7 @@ export default function Resume(){
 
         <section>
           <div>학력사항</div>
-          <div style={{display: "flex", fontWeight: "700", backgroundColor: "rgba(0,0,0,.1)"}}>
+          <div style={{display: "flex", fontWeight: "700", backgroundColor: "rgba(99,102,241,.2)"}}>
             <div style={{padding: 10, width: "20%", textAlign: "center", border: ["solid", "black", "1px"]}}>기간</div>
             <div style={{padding: 10, width: "37%", textAlign: "center", border: ["solid", "black", "1px"]}}>학교명</div>
             <div style={{padding: 10, width: "33%", textAlign: "center", border: ["solid", "black", "1px"]}}>학과(전공)</div>
@@ -101,7 +100,7 @@ export default function Resume(){
 
         <section>
           <div>경력사항</div>
-          <div style={{display: "flex", fontWeight: "700", backgroundColor: "rgba(0,0,0,.1)"}}>
+          <div style={{display: "flex", fontWeight: "700", backgroundColor: "rgba(99,102,241,.2)"}}>
             <div style={{padding: 10, width: "20%", textAlign: "center", border: ["solid", "black", "1px"]}}>기간</div>
             <div style={{padding: 10, width: "37%", textAlign: "center", border: ["solid", "black", "1px"]}}>업체명</div>
             <div style={{padding: 10, width: "33%", textAlign: "center", border: ["solid", "black", "1px"]}}>부서</div>
@@ -129,7 +128,7 @@ export default function Resume(){
 
         <section>
           <div>자격증</div>
-          <div style={{display: "flex", fontWeight: "700", backgroundColor: "rgba(0,0,0,.1)"}}>
+          <div style={{display: "flex", fontWeight: "700", backgroundColor: "rgba(99,102,241,.2)"}}>
             <div style={{padding: 10, width: "20%", textAlign: "center", border: ["solid", "black", "1px"]}}>취득일</div>
             <div style={{padding: 10, width: "50%", textAlign: "center", border: ["solid", "black", "1px"]}}>자격증명</div>
             <div style={{padding: 10, width: "30%", textAlign: "center", border: ["solid", "black", "1px"]}}>발행기관</div>
@@ -153,7 +152,7 @@ export default function Resume(){
 
         <section>
           <div>수상경력 및 기타이력</div>
-          <div style={{display: "flex", fontWeight: "700", backgroundColor: "rgba(0,0,0,.1)"}}>
+          <div style={{display: "flex", fontWeight: "700", backgroundColor: "rgba(99,102,241,.2)"}}>
             <div style={{padding: 10, width: "20%", textAlign: "center", border: ["solid", "black", "1px"]}}>수상일자</div>
             <div style={{padding: 10, width: "50%", textAlign: "center", border: ["solid", "black", "1px"]}}>수상경력 및 기타이력</div>
             <div style={{padding: 10, width: "30%", textAlign: "center", border: ["solid", "black", "1px"]}}>발행기관</div>
