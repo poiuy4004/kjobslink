@@ -10,8 +10,8 @@ a{
   text-decoration: none;
 }
 main{
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;

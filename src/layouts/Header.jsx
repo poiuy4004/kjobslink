@@ -18,68 +18,68 @@ export default function Header(){
           </div>
         </div>
         <div className="navBox">
-          <Link to=""><li>구직자 ∨</li></Link>
+          <Link to="/resume"><li>구직자 ∨</li></Link>
           <div className="navDetail">
-            <Link>이력서 등록</Link>
-            <Link>스마트매칭</Link>
-            <Link>1:1멘토링(면접/상담)</Link>
-            <Link>적응프로그램</Link>
+            <Link to="/resume">이력서 등록</Link>
+            <Link to="/smart">스마트매칭</Link>
+            <Link to="/mento">1:1멘토링(면접/상담)</Link>
+            <Link to="/adapta">적응프로그램</Link>
           </div>
         </div>
         <div className="navBox">
           <Link to=""><li>기업 ∨</li></Link>
           <div className="navDetail">
-            <Link>인재현황</Link>
-            <Link>인재채용</Link>
-            <Link>인재매칭</Link>
+            <Link to="">인재현황</Link>
+            <Link to="">인재채용</Link>
+            <Link to="">인재매칭</Link>
           </div>
         </div>
         <div className="navBox">
           <Link to=""><li>송출기업 ∨</li></Link>
           <div className="navDetail">
-            <Link>협약신청</Link>
-            <Link>인재등록</Link>
-            <Link>구인매칭</Link>
+            <Link to="/joincompany">협약신청</Link>
+            <Link to="">인재등록</Link>
+            <Link to="">구인매칭</Link>
           </div>
         </div>
         <div className="navBox">
           <Link to=""><li>대학 ∨</li></Link>
           <div className="navDetail">
-            <Link>협약신청</Link>
-            <Link>자료등록</Link>
-            <Link>D-2신청</Link>
-            <Link>D-4신청</Link>
+            <Link to="">협약신청</Link>
+            <Link to="">자료등록</Link>
+            <Link to="">D-2신청</Link>
+            <Link to="">D-4신청</Link>
           </div>
         </div>
         <div className="navBox">
           <Link to=""><li>정보광장 ∨</li></Link>
           <div className="navDetail">
-            <Link>비자안내</Link>
-            <Link>여행정보</Link>
-            <Link>한국문화</Link>
-            <Link>기업문화</Link>
-            <Link>4대보험</Link>
-            <Link>정부사업연계</Link>
+            <Link to="">비자안내</Link>
+            <Link to="">여행정보</Link>
+            <Link to="">한국문화</Link>
+            <Link to="">기업문화</Link>
+            <Link to="">4대보험</Link>
+            <Link to="">정부사업연계</Link>
           </div>
         </div>
         <div className="navBox">
           <Link to=""><li>서비스신청 ∨</li></Link>
           <div className="navDetail">
-            <Link>비자신청</Link>
-            <Link>비자연장</Link>
-            <Link>외국인등록번호발급</Link>
-            <Link>한국어교육</Link>
-            <Link>법정의무교육</Link>
+            <Link to="">비자신청</Link>
+            <Link to="">비자연장</Link>
+            <Link to="">외국인등록번호발급</Link>
+            <Link to="">한국어교육</Link>
+            <Link to="">법정의무교육</Link>
           </div>
         </div>
         <div className="navBox">
           <Link to=""><li>한국어 ∨</li></Link>
           <div className="navDetail">
-            <Link>영어</Link>
-            <Link>일본어</Link>
-            <Link>중국어</Link>
-            <Link>프랑스어</Link>
-            <Link>독일어</Link>
+            <Link to="">영어</Link>
+            <Link to="">일본어</Link>
+            <Link to="">중국어</Link>
+            <Link to="">프랑스어</Link>
+            <Link to="">독일어</Link>
           </div>
         </div>
       </ul>
