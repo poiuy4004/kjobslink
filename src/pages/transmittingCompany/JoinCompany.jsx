@@ -118,7 +118,6 @@ export default function JoinCompany(){
       </form>
       </article>
     </main>
-    <Footer />
     </>
   )
 }

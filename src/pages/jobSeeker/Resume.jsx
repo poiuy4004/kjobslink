@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Footer from "../../layouts/Footer";
 import Header from "../../layouts/Header";
+import Header2 from "../../layouts/Header2";
 
 export default function Resume(){
   const [resumeImg, setResumeImg] = useState("https://image.idus.com/image/files/f7ad6efa2937405a93eadc1ef0a7e325_400.jpg")
@@ -10,7 +10,8 @@ export default function Resume(){
   }
   return(
     <>
-    <Header />
+    <Header sort="jobSeeker" />
+    <Header2 sort="jobSeeker" page="resume" />
     <main style={{backgroundColor: "rgba(128,128,128,.1)"}}>
       <article style={{width: "72%"}}>
       <h1>이력서 등록</h1>
@@ -176,7 +177,7 @@ export default function Resume(){
 
 
 
-        <section style={{display: "flex", flexDirection: "column"}}>
+        <section style={{paddingTop: 30, paddingBottom: 30, display: "flex", flexDirection: "column", rowGap: 25}}>
           <button style={{width: "8%", padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>💾 파일선택</button>
           <button style={{padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>Confirm</button>
         </section>
@@ -184,7 +185,6 @@ export default function Resume(){
       </form>
       </article>
     </main>
-    <Footer />
     </>
   )
 }
