@@ -1,9 +1,9 @@
-export default function History(){
+export default function Government(){
 
   return(
     <>
     <main>
-      History
+    Government
     </main>
     </>
   )

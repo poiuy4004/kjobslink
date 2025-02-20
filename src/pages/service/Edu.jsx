@@ -1,9 +1,9 @@
-export default function History(){
+export default function Edu(){
 
   return(
     <>
     <main>
-      History
+      Edu
     </main>
     </>
   )

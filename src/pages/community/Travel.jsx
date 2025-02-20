@@ -1,9 +1,9 @@
-export default function History(){
+export default function Travel(){
 
   return(
     <>
     <main>
-      History
+    Travel
     </main>
     </>
   )

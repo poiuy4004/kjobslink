@@ -1,13 +1,9 @@
 import { useState } from "react";
 
-import Header from "../layouts/Header";
-import Footer from "../layouts/Footer";
-
 export default function Home() {
   const [renderWaiting, setRenderWaiting] = useState("hideWaiting")
   return (
     <>
-    <Header />
     <main style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
       <h1 style={{padding: 14}}>KJOBSLINK supports your success.</h1>
 
@@ -81,7 +77,6 @@ export default function Home() {
 
       <div style={{marginBottom: 100}}></div>
     </main>
-    <Footer />
     </>
   );
 }

@@ -1,7 +1,4 @@
 import { useState } from "react";
-import Header from "../../layouts/Header";
-import Header2 from "../../layouts/Header2";
-
 export default function Resume(){
   const [resumeImg, setResumeImg] = useState("https://image.idus.com/image/files/f7ad6efa2937405a93eadc1ef0a7e325_400.jpg")
   function uploadImg(e){
@@ -10,8 +7,6 @@ export default function Resume(){
   }
   return(
     <>
-    <Header sort="jobSeeker" />
-    <Header2 sort="jobSeeker" page="resume" />
     <main style={{backgroundColor: "rgba(128,128,128,.1)"}}>
       <article style={{width: "72%"}}>
       <h1>이력서 등록</h1>

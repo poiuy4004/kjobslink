@@ -1,11 +1,6 @@
-import Header from "../../layouts/Header";
-import Header2 from "../../layouts/Header2";
-
 export default function Ideology(){
   return(
     <>
-    <Header sort="intro" />
-	<Header2 sort="intro" page="ideology" />
     <main>
       <article style={{width: "72%",}}>
 		<ul>

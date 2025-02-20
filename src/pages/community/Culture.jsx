@@ -1,9 +1,9 @@
-export default function History(){
+export default function Culture(){
 
   return(
     <>
     <main>
-      History
+    Culture
     </main>
     </>
   )

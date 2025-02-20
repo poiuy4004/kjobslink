@@ -37,12 +37,12 @@ export default function Header2(){
         </ul>
       : sort=="community"?
         <ul className="header2">
-          <Link to="/resume" onClick={()=>setPage("visareq")}><li style={{color: page=="resume"? "blue":"black"}}>VISA</li></Link>
-          <Link to="/mento" onClick={()=>setPage("visareq")}><li style={{color: page=="mento"? "blue":"black"}}>여행</li></Link>
-          <Link to="/smart" onClick={()=>setPage("visareq")}><li style={{color: page=="smart"? "blue":"black"}}>문화</li></Link>
-          <Link to="/adapta" onClick={()=>setPage("visareq")}><li style={{color: page=="adapta"? "blue":"black"}}>기업</li></Link>
-          <Link to="/d2" onClick={()=>setPage("visareq")}><li style={{color: page=="d2"? "blue":"black"}}>법률</li></Link>
-          <Link to="/d4" onClick={()=>setPage("visareq")}><li style={{color: page=="d4"? "blue":"black"}}>정부사업</li></Link>
+          <Link to="/visa" onClick={()=>setPage("visa")}><li style={{color: page=="visa"? "blue":"black"}}>VISA</li></Link>
+          <Link to="/travel" onClick={()=>setPage("travel")}><li style={{color: page=="travel"? "blue":"black"}}>여행</li></Link>
+          <Link to="/culture" onClick={()=>setPage("culture")}><li style={{color: page=="culture"? "blue":"black"}}>문화</li></Link>
+          <Link to="/corporation" onClick={()=>setPage("corporation")}><li style={{color: page=="corporation"? "blue":"black"}}>기업</li></Link>
+          <Link to="/law" onClick={()=>setPage("law")}><li style={{color: page=="law"? "blue":"black"}}>법률</li></Link>
+          <Link to="/government" onClick={()=>setPage("government")}><li style={{color: page=="government"? "blue":"black"}}>정부사업</li></Link>
         </ul>
       : sort=="jobSeeker"?
         <ul className="header2">
@@ -59,26 +59,24 @@ export default function Header2(){
         </ul>
       : sort=="company"?
         <ul className="header2">
-          <Link to="/resume" onClick={()=>setPage("visareq")}><li style={{color: page=="resume"? "blue":"black"}}>파트너 등록</li></Link>
-          <Link to="/resume" onClick={()=>setPage("visareq")}><li style={{color: page=="resume"? "blue":"black"}}>구인공고 등록</li></Link>
-          <Link to="/mento" onClick={()=>setPage("visareq")}><li style={{color: page=="mento"? "blue":"black"}}>인재 현황</li></Link>
-          <Link to="/smart" onClick={()=>setPage("visareq")}><li style={{color: page=="smart"? "blue":"black"}}>스마트 매칭</li></Link>
+          <Link to="/partner" onClick={()=>setPage("partner")}><li style={{color: page=="partner"? "blue":"black"}}>파트너 등록</li></Link>
+          <Link to="/jobpost" onClick={()=>setPage("jobpost")}><li style={{color: page=="jobpost"? "blue":"black"}}>구인공고 등록</li></Link>
+          <Link to="/peoplelist" onClick={()=>setPage("peoplelist")}><li style={{color: page=="peoplelist"? "blue":"black"}}>인재 현황</li></Link>
+          <Link to="/smart" onClick={()=>setPage("smart")}><li style={{color: page=="smart"? "blue":"black"}}>스마트 매칭</li></Link>
         </ul>
-      : sort=="transmitting"?
+      : sort=="transmittingcompany"?
         <ul className="header2">
-          <Link to="/resume" onClick={()=>setPage("visareq")}><li style={{color: page=="resume"? "blue":"black"}}>협약 신청</li></Link>
-          <Link to="/mento" onClick={()=>setPage("visareq")}><li style={{color: page=="mento"? "blue":"black"}}>인재 등록</li></Link>
-          <Link to="/smart" onClick={()=>setPage("visareq")}><li style={{color: page=="smart"? "blue":"black"}}>채용 공고</li></Link>
-          <Link to="/adapta" onClick={()=>setPage("visareq")}><li style={{color: page=="adapta"? "blue":"black"}}>스마트 매칭</li></Link>
+          <Link to="/joincompany" onClick={()=>setPage("joincompany")}><li style={{color: page=="joincompany"? "blue":"black"}}>협약 신청</li></Link>
+          <Link to="/addperson" onClick={()=>setPage("addperson")}><li style={{color: page=="addperson"? "blue":"black"}}>인재 등록</li></Link>
+          <Link to="/joblist" onClick={()=>setPage("joblist")}><li style={{color: page=="joblist"? "blue":"black"}}>채용 공고</li></Link>
+          <Link to="/smart" onClick={()=>setPage("smart")}><li style={{color: page=="smart"? "blue":"black"}}>스마트 매칭</li></Link>
         </ul>
       : sort=="university"?
         <ul className="header2">
-          <Link to="/resume" onClick={()=>setPage("visareq")}><li style={{color: page=="resume"? "blue":"black"}}>이력서 등록</li></Link>
-          <Link to="/mento" onClick={()=>setPage("visareq")}><li style={{color: page=="mento"? "blue":"black"}}>1:1 멘토링 (면접/상담)</li></Link>
-          <Link to="/smart" onClick={()=>setPage("visareq")}><li style={{color: page=="smart"? "blue":"black"}}>스마트 매칭</li></Link>
-          <Link to="/adapta" onClick={()=>setPage("visareq")}><li style={{color: page=="adapta"? "blue":"black"}}>적응프로그램</li></Link>
-          <Link to="/d2" onClick={()=>setPage("visareq")}><li style={{color: page=="d2"? "blue":"black"}}>D-2 신청</li></Link>
-          <Link to="/d4" onClick={()=>setPage("visareq")}><li style={{color: page=="d4"? "blue":"black"}}>D-4 신청</li></Link>
+          <Link to="/joinuniversity" onClick={()=>setPage("joinuniversity")}><li style={{color: page=="joinuniversity"? "blue":"black"}}>협약 신청</li></Link>
+          <Link to="/universitypost" onClick={()=>setPage("universitypost")}><li style={{color: page=="universitypost"? "blue":"black"}}>자료 등록</li></Link>
+          <Link to="/d2" onClick={()=>setPage("d2")}><li style={{color: page=="d2"? "blue":"black"}}>D-2 신청</li></Link>
+          <Link to="/d4" onClick={()=>setPage("d4")}><li style={{color: page=="d4"? "blue":"black"}}>D-4 신청</li></Link>
         </ul>
       : null
     }

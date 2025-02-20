@@ -1,10 +1,10 @@
-import Header from "../../layouts/Header";
-
-export default function Addperson(){
+export default function AddPerson(){
 
   return(
     <>
-    <Header />
+    <main>
+      AddPerson
+    </main>
     </>
   )
 }

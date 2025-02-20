@@ -26,33 +26,33 @@ export default function Header(){
         <div className="navBox">
           <Link to="/joblist" onClick={()=>{setSort("info"); setPage("joblist")}}><li style={{color: sort=="info"? "blue":"black"}}>채용정보</li></Link>
           <div className="navDetail">
-            <Link to="/joblist">채용공고</Link>
-            <Link to="/peoplelist">인재현황</Link>
-            <Link to="/companyinfo">기업정보</Link>
-            <Link to="/smart">스마트 매칭</Link>
+            <Link to="/joblist" onClick={()=>{setSort("info"); setPage("joblist")}}>채용공고</Link>
+            <Link to="/peoplelist" onClick={()=>{setSort("info"); setPage("peoplelist")}}>인재현황</Link>
+            <Link to="/companyinfo" onClick={()=>{setSort("info"); setPage("companyinfo")}}>기업정보</Link>
+            <Link to="/smart" onClick={()=>{setSort("info"); setPage("smart")}}>스마트 매칭</Link>
           </div>
         </div>
         <div className="navBox">
           <Link to="" onClick={()=>{setSort("service"); setPage("visareq")}}><li style={{color: sort=="service"? "blue":"black"}}>지원서비스</li></Link>
           <div className="navDetail">
             <Link to="/visareq" onClick={()=>{setSort("service"); setPage("visareq")}}>비자신청</Link>
-            <Link to="/visa" onClick={()=>{setSort("service"); setPage("visareq")}}>비자연장</Link>
-            <Link to="/visa" onClick={()=>{setSort("service"); setPage("visareq")}}>비자전환</Link>
-            <Link to="/visa" onClick={()=>{setSort("service"); setPage("visareq")}}>외국인등록번호발급</Link>
-            <Link to="/visa" onClick={()=>{setSort("service"); setPage("visareq")}}>한국어교육</Link>
-            <Link to="/visa" onClick={()=>{setSort("service"); setPage("visareq")}}>적응프로그램</Link>
-            <Link to="/visa" onClick={()=>{setSort("service"); setPage("visareq")}}>법정의무교육</Link>
+            <Link to="/visaextend" onClick={()=>{setSort("service"); setPage("visaextend")}}>비자연장</Link>
+            <Link to="/visaswitch" onClick={()=>{setSort("service"); setPage("visaswitch")}}>비자전환</Link>
+            <Link to="/foreigner" onClick={()=>{setSort("service"); setPage("foreigner")}}>외국인등록번호발급</Link>
+            <Link to="/korean" onClick={()=>{setSort("service"); setPage("korean")}}>한국어교육</Link>
+            <Link to="/adapta" onClick={()=>{setSort("service"); setPage("adapta")}}>적응프로그램</Link>
+            <Link to="/edu" onClick={()=>{setSort("service"); setPage("edu")}}>법정의무교육</Link>
           </div>
         </div>
         <div className="navBox">
-          <Link to="" onClick={()=>{setSort("community"); setPage("visa")}}><li style={{color: sort=="community"? "blue":"black"}}>커뮤니티</li></Link>
+          <Link to="/visa" onClick={()=>{setSort("community"); setPage("visa")}}><li style={{color: sort=="community"? "blue":"black"}}>커뮤니티</li></Link>
           <div className="navDetail">
-            <Link to="" onClick={()=>{setSort("service"); setPage("visareq")}}>VISA</Link>
-            <Link to="" onClick={()=>{setSort("service"); setPage("visareq")}}>여행</Link>
-            <Link to="" onClick={()=>{setSort("service"); setPage("visareq")}}>문화</Link>
-            <Link to="" onClick={()=>{setSort("service"); setPage("visareq")}}>기업</Link>
-            <Link to="" onClick={()=>{setSort("service"); setPage("visareq")}}>법률</Link>
-            <Link to="" onClick={()=>{setSort("service"); setPage("visareq")}}>정부사업</Link>
+            <Link to="/visa" onClick={()=>{setSort("community"); setPage("visa")}}>VISA</Link>
+            <Link to="/travel" onClick={()=>{setSort("community"); setPage("travel")}}>여행</Link>
+            <Link to="/culture" onClick={()=>{setSort("community"); setPage("culture")}}>문화</Link>
+            <Link to="/corporation" onClick={()=>{setSort("community"); setPage("corporation")}}>기업</Link>
+            <Link to="/law" onClick={()=>{setSort("community"); setPage("law")}}>법률</Link>
+            <Link to="/government" onClick={()=>{setSort("community"); setPage("government")}}>정부사업</Link>
           </div>
         </div>
 

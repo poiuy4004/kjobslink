@@ -1,9 +1,9 @@
-export default function History(){
+export default function Visa(){
 
   return(
     <>
     <main>
-      History
+    Visa
     </main>
     </>
   )

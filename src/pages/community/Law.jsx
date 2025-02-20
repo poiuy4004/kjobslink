@@ -1,9 +1,9 @@
-export default function History(){
+export default function Law(){
 
   return(
     <>
     <main>
-      History
+    Law
     </main>
     </>
   )

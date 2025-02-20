@@ -10,6 +10,7 @@ a{
   text-decoration: none;
 }
 main{
+  min-height: 77vh;
   padding-top: 10rem;
   padding-bottom: 6rem;
   display: flex;
@@ -34,6 +35,9 @@ header{
   justify-content: space-around;
   background-color: white;
   border-bottom: solid blue 1px;
+  &>a:hover{
+    background-color: rgba(0,0,0,.1);
+  }
 }
 button{
   cursor: pointer;
@@ -43,8 +47,6 @@ button{
 .navDetail{
   z-index: 999;
   display: none;
-  padding-left: 1rem;
-  padding-right: 1rem;
   border-radius: .5rem;
   background-color: white;
   &:hover{
@@ -54,8 +56,14 @@ button{
     box-shadow: rgba(0,0,0,.1) 0 10px 15px -3px;
   }
   &>a{
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  &>a:hover{
+    color: blue;
+    background-color: rgba(0,0,0,.1);
   }
 }
 .navBox{

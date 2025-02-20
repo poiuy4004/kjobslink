@@ -1,9 +1,6 @@
-import Header from "../../layouts/Header";
-
 export default function adminList(){
   return(
     <>
-    <Header />
     <main>
       <ul>
         <li></li>

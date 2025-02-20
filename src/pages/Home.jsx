@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom";
 import useZustand from "../store/zustand";
-import Header from "../layouts/Header";
 
 export default function Home() {
   const setSort = useZustand.sortStore(state=>state.setSort)
   const setPage = useZustand.pageStore(state=>state.setPage)
   return (
     <>
-    <Header />
     <main style={{display: "flex", flexDirection: "column", rowGap: 77,}}>
 
       <article style={{zIndex: 1, width: "55%",}}>
@@ -16,15 +14,15 @@ export default function Home() {
             <img width="55" height="55" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YAx26dX312BrMA-VxRSRJYzdpfzqsLH3pA&s" />
             <div>구직자</div>
           </Link>
-          <Link to="" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("jobSeeker"); setPage("resume")}}>
+          <Link to="/partner" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("company"); setPage("partner")}}>
             <img width="55" height="55" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZvZzdFb0yYp-LrH4eDtW0M5798LAVC_KNw&s" />
             <div>채용기업</div>
           </Link>
-          <Link to="" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("jobSeeker"); setPage("resume")}}>
+          <Link to="/joincompany" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("transmittingcompany"); setPage("joincompany")}}>
             <img width="55" height="55" src="https://w7.pngwing.com/pngs/940/702/png-transparent-computer-icons-company-business-organization-business-icons-company-text-service.png" />
             <div>송출기업</div>
           </Link>
-          <Link to="" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("jobSeeker"); setPage("resume")}}>
+          <Link to="/joinuniversity" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("university"); setPage("joinuniversity")}}>
             <img width="55" height="55" src="https://compphoto.incruit.com/2022/05/%EC%97%90%EC%BF%BC%ED%8B%B0%EC%96%B8%20%EB%A1%9C%EA%B3%A0.png" />
             <div>대학/어학당</div>
           </Link>

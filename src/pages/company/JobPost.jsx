@@ -1,9 +1,9 @@
-export default function History(){
+export default function JobPost(){
 
   return(
     <>
     <main>
-      History
+      JobPost
     </main>
     </>
   )

@@ -1,11 +1,6 @@
-import Header from "../../layouts/Header";
-import Header2 from "../../layouts/Header2";
-
 export default function Greeting(){
   return(
     <>
-    <Header sort="intro" />
-    <Header2 sort="intro" page="greeting" />
     <main>
       <article style={{width: "72%", display: "flex", flexDirection: "column", rowGap: 70}}>
         <section style={{fontSize: 33, fontWeight: "700"}}>
