@@ -2,7 +2,7 @@ export default function Partner(){
 
   return(
     <>
-    <main style={{backgroundColor: "rgba(0,0,0,.1)"}}>
+    <main>
       <article style={{width: "72%"}}>
       <h1>파트너 신청</h1>
       <desc>잘못된 정보는 업무에 제약이 있을 수 있으니, 정확한 기업 정보를 입력해 주세요.</desc>

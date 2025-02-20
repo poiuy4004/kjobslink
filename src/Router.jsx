@@ -17,7 +17,7 @@ import OrganizationChart from "./pages/intro/OrganizationChart";
 import Cooperation from "./pages/intro/Cooperation";
 import Notice from "./pages/intro/Notice";
 
-import JobList from "./pages/info/JJobList";
+import JobList from "./pages/info/JobList";
 import PeopleList from "./pages/info/PeopleList";
 import CompanyInfo from "./pages/info/CompanyInfo";
 
@@ -29,6 +29,7 @@ import Korean from "./pages/service/Korean";
 import Adapta from "./pages/service/Adapta";
 import Edu from "./pages/service/Edu";
 
+import Infomation from "./pages/community/Infomation";
 import Visa from "./pages/community/Visa";
 import Travel from "./pages/community/Travel";
 import Culture from "./pages/community/Culture";
@@ -89,6 +90,7 @@ function Router() {
         <Route path="/edu" Component={Edu} />
 
         {/* 커뮤니티 */}
+        <Route path="/infomation" Component={Infomation} />
         <Route path="/visa" Component={Visa} />
         <Route path="/travel" Component={Travel} />
         <Route path="/culture" Component={Culture} />

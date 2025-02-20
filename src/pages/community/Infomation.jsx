@@ -1,9 +1,9 @@
-export default function Travel(){
+export default function Infomation(){
 
   return(
     <>
     <main>
-    Travel
+    Infomation
     <div>게시판 형태</div>
     </main>
     </>

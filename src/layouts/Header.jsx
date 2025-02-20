@@ -33,7 +33,7 @@ export default function Header(){
           </div>
         </div>
         <div className="navBox">
-          <Link to="" onClick={()=>{setSort("service"); setPage("visareq")}}><li style={{color: sort=="service"? "blue":"black"}}>지원서비스</li></Link>
+          <Link to="/visareq" onClick={()=>{setSort("service"); setPage("visareq")}}><li style={{color: sort=="service"? "blue":"black"}}>지원서비스</li></Link>
           <div className="navDetail">
             <Link to="/visareq" onClick={()=>{setSort("service"); setPage("visareq")}}>비자신청</Link>
             <Link to="/visaextend" onClick={()=>{setSort("service"); setPage("visaextend")}}>비자연장</Link>
@@ -45,8 +45,9 @@ export default function Header(){
           </div>
         </div>
         <div className="navBox">
-          <Link to="/visa" onClick={()=>{setSort("community"); setPage("visa")}}><li style={{color: sort=="community"? "blue":"black"}}>커뮤니티</li></Link>
+          <Link to="/infomation" onClick={()=>{setSort("community"); setPage("infomation")}}><li style={{color: sort=="community"? "blue":"black"}}>커뮤니티</li></Link>
           <div className="navDetail">
+            <Link to="/infomation" onClick={()=>{setSort("community"); setPage("infomation")}}>정보광장</Link>
             <Link to="/visa" onClick={()=>{setSort("community"); setPage("visa")}}>VISA</Link>
             <Link to="/travel" onClick={()=>{setSort("community"); setPage("travel")}}>여행</Link>
             <Link to="/culture" onClick={()=>{setSort("community"); setPage("culture")}}>문화</Link>

@@ -4,6 +4,7 @@ export default function Visa(){
     <>
     <main>
     Visa
+    <div>게시판 형태</div>
     </main>
     </>
   )

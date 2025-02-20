@@ -17,7 +17,7 @@ main{
   flex-direction: column;
   align-items: center;
   row-gap: 77;
-  background-color: rgba(249,250,251,1)
+  background-color: rgba(128,128,128,.1);
 }
 header{
   z-index: 9;
@@ -76,4 +76,23 @@ button{
       box-shadow: rgba(0,0,0,.1) 0 10px 15px -3px;
     }
   }
+}
+.homeIcon:hover{
+  transform: scale(125%);
+  transition: .3s;
+}
+.listBox{
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &>a{
+    width: 100%;
+    margin: 3px 0;
+    padding: 3px;
+  }
+}
+.list{
+  display: flex;
+  justify-content: space-between;
 }

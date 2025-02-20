@@ -10,19 +10,19 @@ export default function Home() {
 
       <article style={{zIndex: 1, width: "55%",}}>
         <section style={{display: "flex", justifyContent: "space-between", fontSize: 24,}}>
-          <Link to="/resume" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("jobSeeker"); setPage("resume")}}>
+          <Link to="/resume" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("jobSeeker"); setPage("resume")}} className="homeIcon">
             <img width="55" height="55" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YAx26dX312BrMA-VxRSRJYzdpfzqsLH3pA&s" />
             <div>구직자</div>
           </Link>
-          <Link to="/partner" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("company"); setPage("partner")}}>
+          <Link to="/partner" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("company"); setPage("partner")}} className="homeIcon">
             <img width="55" height="55" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZvZzdFb0yYp-LrH4eDtW0M5798LAVC_KNw&s" />
             <div>채용기업</div>
           </Link>
-          <Link to="/joincompany" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("transmittingcompany"); setPage("joincompany")}}>
+          <Link to="/joincompany" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("transmittingcompany"); setPage("joincompany")}} className="homeIcon">
             <img width="55" height="55" src="https://w7.pngwing.com/pngs/940/702/png-transparent-computer-icons-company-business-organization-business-icons-company-text-service.png" />
             <div>송출기업</div>
           </Link>
-          <Link to="/joinuniversity" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("university"); setPage("joinuniversity")}}>
+          <Link to="/joinuniversity" style={{display: "flex", flexDirection: "column", alignItems: "center", rowGap: 3}} onClick={()=>{setSort("university"); setPage("joinuniversity")}} className="homeIcon">
             <img width="55" height="55" src="https://compphoto.incruit.com/2022/05/%EC%97%90%EC%BF%BC%ED%8B%B0%EC%96%B8%20%EB%A1%9C%EA%B3%A0.png" />
             <div>대학/어학당</div>
           </Link>
@@ -67,9 +67,9 @@ export default function Home() {
         <div style={{marginTop: "1rem", marginBottom: "2rem"}}>K-JOBS의 최신 소식을 확인하세요</div>
         <div style={{width: "100%", display: "flex", justifyContent: "space-between"}}>
           <section style={{width: "32%", display: "flex", flexDirection: "column", border: ["solid", "black", "1px"], backgroundColor: "white"}}>
-            <div style={{padding: 14, borderBottom: "1px solid rgba(0,0,0,.3)"}}>
+            <Link to="/joblist" style={{padding: 14, borderBottom: "1px solid rgba(0,0,0,.3)"}}>
               채용공고
-            </div>
+            </Link>
             <ul>
               <li style={{padding: 10}}>글 제목 1</li>
               <li style={{padding: 10}}>글 제목 2</li>
@@ -84,9 +84,9 @@ export default function Home() {
             </ul>
           </section>
           <section style={{width: "32%", display: "flex", flexDirection: "column", border: ["solid", "black", "1px"], backgroundColor: "white"}}>
-            <div style={{padding: 14, borderBottom: "1px solid rgba(0,0,0,.3)"}}>
+            <Link to="/peoplelist" style={{padding: 14, borderBottom: "1px solid rgba(0,0,0,.3)"}}>
               인재현황
-            </div>
+            </Link>
             <ul>
               <li style={{padding: 10}}>글 제목 1</li>
               <li style={{padding: 10}}>글 제목 2</li>
@@ -101,9 +101,9 @@ export default function Home() {
             </ul>
           </section>
           <section style={{width: "32%", display: "flex", flexDirection: "column", border: ["solid", "black", "1px"], backgroundColor: "white"}}>
-            <div style={{padding: 14, borderBottom: "1px solid rgba(0,0,0,.3)"}}>
+            <Link to="/travel" style={{padding: 14, borderBottom: "1px solid rgba(0,0,0,.3)"}}>
               커뮤니티
-            </div>
+            </Link>
             <ul>
               <li style={{padding: 10}}>글 제목 1</li>
               <li style={{padding: 10}}>글 제목 2</li>
@@ -122,11 +122,11 @@ export default function Home() {
 
       <div style={{zIndex: 0, position: "fixed", top: "2rem", left: 0, width: "100%", height: "100%", display: "flex", justifyContent: "space-between", alignItems: "end"}}>
         <div>
-          <div style={{width: 337, height: 337, position: "absolute", backgroundColor: "rgba(249,250,251,.8)"}} />
+          <div style={{width: 337, height: 337, position: "absolute", backgroundColor: "rgba(240,240,240,.9)"}} />
           <img width="337" height="337" src="https://kjobslink.co.kr/theme/bootstrap5-basic/img/01.png" />
         </div>
         <div>
-          <div style={{width: 377, height: 377, position: "absolute", backgroundColor: "rgba(249,250,251,.8)"}} />
+          <div style={{width: 377, height: 377, position: "absolute", backgroundColor: "rgba(240,240,240,.9)"}} />
           <img width="377" height="377" src="https://kjobslink.co.kr/theme/bootstrap5-basic/img/02.png" style={{marginBottom: "-2rem",}} />
         </div>
       </div>

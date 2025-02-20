@@ -37,6 +37,7 @@ export default function Header2(){
         </ul>
       : sort=="community"?
         <ul className="header2">
+          <Link to="/infomation" onClick={()=>setPage("infomation")}><li style={{color: page=="infomation"? "blue":"black"}}>정보광장</li></Link>
           <Link to="/visa" onClick={()=>setPage("visa")}><li style={{color: page=="visa"? "blue":"black"}}>VISA</li></Link>
           <Link to="/travel" onClick={()=>setPage("travel")}><li style={{color: page=="travel"? "blue":"black"}}>여행</li></Link>
           <Link to="/culture" onClick={()=>setPage("culture")}><li style={{color: page=="culture"? "blue":"black"}}>문화</li></Link>

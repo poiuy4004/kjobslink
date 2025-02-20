@@ -4,6 +4,7 @@ export default function Culture(){
     <>
     <main>
     Culture
+    <div>게시판 형태</div>
     </main>
     </>
   )

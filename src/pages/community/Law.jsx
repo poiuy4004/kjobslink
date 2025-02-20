@@ -4,6 +4,7 @@ export default function Law(){
     <>
     <main>
     Law
+    <div>게시판 형태</div>
     </main>
     </>
   )
