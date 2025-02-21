@@ -6,8 +6,7 @@ export default function Resume(){
     setResumeImg(resumeImgURL)
   }
   return(
-    <>
-    <main style={{backgroundColor: "rgba(128,128,128,.1)"}}>
+    <main>
       <article style={{width: "72%"}}>
       <h1>이력서 등록</h1>
       <desc>잘못된 정보는 업무에 제약이 있을 수 있으니, 정확한 이력서 정보를 입력해 주세요.</desc>
@@ -170,8 +169,6 @@ export default function Resume(){
           </div>
         </section>
 
-
-
         <section style={{paddingTop: 30, paddingBottom: 30, display: "flex", flexDirection: "column", rowGap: 25}}>
           <button style={{width: "8%", padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>💾 파일선택</button>
           <button style={{padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>Confirm</button>
@@ -180,6 +177,5 @@ export default function Resume(){
       </form>
       </article>
     </main>
-    </>
   )
 }

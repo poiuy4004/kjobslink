@@ -1,6 +1,6 @@
 export default function Greeting(){
   return(
-    <>
+    
     <main>
       <article style={{width: "72%", display: "flex", flexDirection: "column", rowGap: 70}}>
         <section style={{fontSize: 33, fontWeight: "700"}}>
@@ -33,6 +33,6 @@ export default function Greeting(){
         </section>
       </article>
     </main>
-    </>
+    
   )
 }

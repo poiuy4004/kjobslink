@@ -5,7 +5,7 @@ export default function Home() {
   const setSort = useZustand.sortStore(state=>state.setSort)
   const setPage = useZustand.pageStore(state=>state.setPage)
   return (
-    <>
+    
     <main style={{display: "flex", flexDirection: "column", rowGap: 77,}}>
 
       <article style={{zIndex: 1, width: "55%",}}>
@@ -132,6 +132,6 @@ export default function Home() {
       </div>
 
     </main>
-    </>
+    
   );
 }

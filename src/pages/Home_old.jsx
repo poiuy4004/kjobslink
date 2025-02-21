@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Home() {
   const [renderWaiting, setRenderWaiting] = useState("hideWaiting")
   return (
-    <>
+    
     <main style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
       <h1 style={{padding: 14}}>KJOBSLINK supports your success.</h1>
 
@@ -77,6 +77,6 @@ export default function Home() {
 
       <div style={{marginBottom: 100}}></div>
     </main>
-    </>
+    
   );
 }

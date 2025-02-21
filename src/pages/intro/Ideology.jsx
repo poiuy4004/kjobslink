@@ -1,6 +1,6 @@
 export default function Ideology(){
   return(
-    <>
+    
     <main>
       <article style={{width: "72%",}}>
 		<ul>
@@ -63,6 +63,6 @@ export default function Ideology(){
 		</ul>
       </article>
     </main>
-    </>
+    
   )
 }

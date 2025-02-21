@@ -27,10 +27,10 @@ export default function Header2(){
         </ul>
       : sort=="service"?
         <ul className="header2">
-          <Link to="/visareq" onClick={()=>setPage("visareq")}><li style={{color: page=="visareq"? "blue":"black"}}>비자신청</li></Link>
-          <Link to="/visaextend" onClick={()=>setPage("visaextend")}><li style={{color: page=="visaextend"? "blue":"black"}}>비자연장</li></Link>
-          <Link to="/visaswitch" onClick={()=>setPage("visaswitch")}><li style={{color: page=="visaswitch"? "blue":"black"}}>비자전환</li></Link>
-          <Link to="/foreigner" onClick={()=>setPage("foreigner")}><li style={{color: page=="foreigner"? "blue":"black"}}>외국인등록번호발급</li></Link>
+          <Link to="/visareq" onClick={()=>setPage("visareq")}><li style={{color: page=="visareq"? "blue":"black"}}>비자 업무 신청</li></Link>
+          {/* <Link to="/visaextend" onClick={()=>setPage("visaextend")}><li style={{color: page=="visaextend"? "blue":"black"}}>비자연장</li></Link> */}
+          {/* <Link to="/visaswitch" onClick={()=>setPage("visaswitch")}><li style={{color: page=="visaswitch"? "blue":"black"}}>비자전환</li></Link> */}
+          <Link to="/foreigner" onClick={()=>setPage("foreigner")}><li style={{color: page=="foreigner"? "blue":"black"}}>외국인등록증</li></Link>
           <Link to="/korean" onClick={()=>setPage("korean")}><li style={{color: page=="korean"? "blue":"black"}}>한국어교육</li></Link>
           <Link to="/adapta" onClick={()=>setPage("adapta")}><li style={{color: page=="adapta"? "blue":"black"}}>적응프로그램</li></Link>
           <Link to="/edu" onClick={()=>setPage("edu")}><li style={{color: page=="edu"? "blue":"black"}}>법정의무교육</li></Link>
@@ -55,8 +55,8 @@ export default function Header2(){
           <Link to="/joblist" onClick={()=>setPage("joblist")}><li style={{color: page=="joblist"? "blue":"black"}}>채용 공고</li></Link>
           <Link to="/smart" onClick={()=>setPage("smart")}><li style={{color: page=="smart"? "blue":"black"}}>스마트 매칭</li></Link>
           <Link to="/adapta" onClick={()=>setPage("adapta")}><li style={{color: page=="adapta"? "blue":"black"}}>적응프로그램</li></Link>
-          <Link to="/d2" onClick={()=>setPage("d2")}><li style={{color: page=="d2"? "blue":"black"}}>D-2 신청</li></Link>
-          <Link to="/d4" onClick={()=>setPage("d4")}><li style={{color: page=="d4"? "blue":"black"}}>D-4 신청</li></Link>
+          <Link to="/d2" onClick={()=>setPage("d2")}><li style={{color: page=="d2"? "blue":"black"}}>유학/어학 비자 신청</li></Link>
+          {/* <Link to="/d4" onClick={()=>setPage("d4")}><li style={{color: page=="d4"? "blue":"black"}}>D-4 신청</li></Link> */}
         </ul>
       : sort=="company"?
         <ul className="header2">
@@ -76,11 +76,11 @@ export default function Header2(){
         <ul className="header2">
           <Link to="/joinuniversity" onClick={()=>setPage("joinuniversity")}><li style={{color: page=="joinuniversity"? "blue":"black"}}>협약 신청</li></Link>
           <Link to="/universitypost" onClick={()=>setPage("universitypost")}><li style={{color: page=="universitypost"? "blue":"black"}}>자료 등록</li></Link>
-          <Link to="/d2" onClick={()=>setPage("d2")}><li style={{color: page=="d2"? "blue":"black"}}>D-2 신청</li></Link>
-          <Link to="/d4" onClick={()=>setPage("d4")}><li style={{color: page=="d4"? "blue":"black"}}>D-4 신청</li></Link>
+          <Link to="/d2" onClick={()=>setPage("d2")}><li style={{color: page=="d2"? "blue":"black"}}>유학/어학 비자 신청</li></Link>
+          {/* <Link to="/d4" onClick={()=>setPage("d4")}><li style={{color: page=="d4"? "blue":"black"}}>D-4 신청</li></Link> */}
         </ul>
       : null
     }
-    </>
+  </>
   )
 }

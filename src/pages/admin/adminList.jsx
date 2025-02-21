@@ -1,6 +1,6 @@
 export default function adminList(){
   return(
-    <>
+    
     <main>
       <ul>
         <li></li>
@@ -9,6 +9,6 @@ export default function adminList(){
         <li></li>
       </ul>
     </main>
-    </>
+    
   )
 }

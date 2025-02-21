@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 export default function CompanyInfo(){
 
   return(
-    <>
+    
     <main>
     <article style={{width: "72%"}}>
       <h1>기업정보</h1>
@@ -23,6 +23,6 @@ export default function CompanyInfo(){
       </section>
       </article>
     </main>
-    </>
+    
   )
 }

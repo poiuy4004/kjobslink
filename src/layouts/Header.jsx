@@ -35,10 +35,10 @@ export default function Header(){
         <div className="navBox">
           <Link to="/visareq" onClick={()=>{setSort("service"); setPage("visareq")}}><li style={{color: sort=="service"? "blue":"black"}}>지원서비스</li></Link>
           <div className="navDetail">
-            <Link to="/visareq" onClick={()=>{setSort("service"); setPage("visareq")}}>비자신청</Link>
-            <Link to="/visaextend" onClick={()=>{setSort("service"); setPage("visaextend")}}>비자연장</Link>
-            <Link to="/visaswitch" onClick={()=>{setSort("service"); setPage("visaswitch")}}>비자전환</Link>
-            <Link to="/foreigner" onClick={()=>{setSort("service"); setPage("foreigner")}}>외국인등록번호발급</Link>
+            <Link to="/visareq" onClick={()=>{setSort("service"); setPage("visareq")}}>비자 업무 신청</Link>
+            {/* <Link to="/visaextend" onClick={()=>{setSort("service"); setPage("visaextend")}}>비자연장</Link> */}
+            {/* <Link to="/visaswitch" onClick={()=>{setSort("service"); setPage("visaswitch")}}>비자전환</Link> */}
+            <Link to="/foreigner" onClick={()=>{setSort("service"); setPage("foreigner")}}>외국인등록증</Link>
             <Link to="/korean" onClick={()=>{setSort("service"); setPage("korean")}}>한국어교육</Link>
             <Link to="/adapta" onClick={()=>{setSort("service"); setPage("adapta")}}>적응프로그램</Link>
             <Link to="/edu" onClick={()=>{setSort("service"); setPage("edu")}}>법정의무교육</Link>

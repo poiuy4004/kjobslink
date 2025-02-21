@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 export default function PeopleList(){
 
   return(
-    <>
+    
     <main>
     <article style={{width: "72%"}}>
       <h1>인재현황</h1>
@@ -23,6 +23,6 @@ export default function PeopleList(){
       </section>
       </article>
     </main>
-    </>
+    
   )
 }

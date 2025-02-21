@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/kjobslink/static/css/main.8f96d7b0.css",
-    "main.js": "/kjobslink/static/js/main.5b263c9d.js",
+    "main.js": "/kjobslink/static/js/main.bf875625.js",
+    "static/media/korean.pdf": "/kjobslink/static/media/korean.23b9076f86596a83c724.pdf",
     "index.html": "/kjobslink/index.html",
     "main.8f96d7b0.css.map": "/kjobslink/static/css/main.8f96d7b0.css.map",
-    "main.5b263c9d.js.map": "/kjobslink/static/js/main.5b263c9d.js.map"
+    "main.bf875625.js.map": "/kjobslink/static/js/main.bf875625.js.map"
   },
   "entrypoints": [
     "static/css/main.8f96d7b0.css",
-    "static/js/main.5b263c9d.js"
+    "static/js/main.bf875625.js"
   ]
 }
