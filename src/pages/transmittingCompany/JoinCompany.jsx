@@ -1,5 +1,6 @@
+import { useState } from "react";
 export default function JoinCompany(){
-
+  const [isFile,setIsFile] = useState();
   return(
     <main>
       <article style={{width: "72%", display: "flex", flexDirection: "column", rowGap: "3vh"}}>
@@ -86,7 +87,13 @@ export default function JoinCompany(){
           </div>
         </div>
 
-          {/* <button style={{width: "8%", padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>💾 파일선택</button> */}
+          <input id="file" type="file" style={{width: 0, height: 0}} onChange={e=>{
+            setIsFile(String(e.target.value));
+          }} />
+          <label for="file"
+          style={isFile? {width: "8%", padding: 7,} : {width: "8%", padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>
+            {isFile?  isFile : "💾 파일선택"}
+          </label>
           <button style={{padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>Confirm</button>
 
           </section>

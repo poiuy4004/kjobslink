@@ -1,5 +1,6 @@
 import { useState } from "react";
 export default function AddPerson(){
+  const [isFile, setIsFile] = useState();
   const [resumeImg, setResumeImg] = useState("https://image.idus.com/image/files/f7ad6efa2937405a93eadc1ef0a7e325_400.jpg")
   function uploadImg(e){
     let resumeImgURL = URL.createObjectURL(e.target.files[0])
@@ -170,7 +171,13 @@ export default function AddPerson(){
         </section>
 
         <section style={{paddingTop: 30, paddingBottom: 30, display: "flex", flexDirection: "column", rowGap: 25}}>
-          <button style={{width: "8%", padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>💾 파일선택</button>
+          <input id="file" type="file" style={{width: 0, height: 0}} onChange={e=>{
+            setIsFile(String(e.target.value));
+          }} />
+          <label for="file"
+          style={isFile? {width: "8%", padding: 7,} : {width: "8%", padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>
+            {isFile?  isFile : "💾 파일선택"}
+          </label>
           <button style={{padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>Confirm</button>
         </section>
 

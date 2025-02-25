@@ -1,5 +1,6 @@
+import { useState } from "react";
 export default function JoinUniversity(){
-
+  const [isFile,setIsFile] = useState;
   return(
     <main style={{backgroundColor: "rgba(0,0,0,.1)"}}>
       <article style={{width: "72%", display: "flex", flexDirection: "column", rowGap: "3vh"}}>
@@ -50,7 +51,13 @@ export default function JoinUniversity(){
             </div>
           </div>
           </div>
-          <button style={{width: "8%", padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>💾 파일선택</button>
+          <input id="file" type="file" style={{width: 0, height: 0}} onChange={e=>{
+            setIsFile(String(e.target.value));
+          }} />
+          <label for="file"
+          style={isFile? {width: "8%", padding: 7,} : {width: "8%", padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}}>
+            {isFile?  isFile : "💾 파일선택"}
+          </label>
           <input type="submit" value="Confirm" style={{padding: 7, color: "white", backgroundColor: "rgb(99,102,241)"}} />
           </section>
           D-2 / D-4 체크는 대학에서 하는게 아니지 않나용?

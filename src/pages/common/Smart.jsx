@@ -15,7 +15,6 @@ export default function Smart(){
 
         <section style={{display: "flex", }}>
         <div style={{position: "relative", width: "30%", display: "flex", justifyContent: "center", alignItems: "center"}}>
-          <input type="file" accept="image/jpg, image/jpeg, image/png" style={{width: "55%", height: "100%", border: ["solid", "black", "1px"]}} onChange={e=>uploadImg(e)} />
           <img width="55%" height="100%" src={resumeImg} style={{position: "absolute", pointerEvents: "none"}} />
         </div>
 
